@@ -48,6 +48,7 @@ pip freeze > requirements.txt
 or 
 
 pip install Flask flask-pymongo pymongo python-dotenv flask-cors
+
 pip install --upgrade pip
 pip install --upgrade certifi
 
