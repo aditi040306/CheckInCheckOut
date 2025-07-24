@@ -27,6 +27,7 @@ aditiverma@Mac app % touch models/user.py
 aditiverma@Mac app % touch routes/auth_routes.py
 
 aditiverma@Mac app % touch controllers/auth_controller.py
+
 ----------------------------------------------------------------------
 
 STEPS FOR PYTHON FLASK:
@@ -35,8 +36,8 @@ STEPS FOR PYTHON FLASK:
 cd backend 
 python3 -m venv venv
 source venv/bin/activate     # Mac/Linux
-# OR on Windows:
-# venv\Scripts\activate
+ OR on Windows:
+ venv\Scripts\activate
 pip freeze > requirements.txt
 or 
 pip install Flask flask-pymongo pymongo python-dotenv flask-cors
